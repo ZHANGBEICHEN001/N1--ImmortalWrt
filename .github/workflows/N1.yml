@@ -115,7 +115,8 @@ jobs:
           默认开启 DHCP
           账户: root
           密码: password
-
+          overwrite: true
+          
     - name: 删除运行记录
       uses: Mattraks/delete-workflow-runs@main
       with:
